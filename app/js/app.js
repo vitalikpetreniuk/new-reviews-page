@@ -14,6 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
 	// Custom JS
 
     var swiper = new Swiper(".swiperReviews", {
+    loop: true,
+    speed: 1200,
 		slidesPerView: 3,
 		spaceBetween: 30,
 		initialSlide: 1,
@@ -26,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		breakpoints: {
             
             320: {
-              slidesPerView: 2.03,
+              slidesPerView: 2.05,
               spaceBetween: 10,
 			        initialSlide: 0,
             },
