@@ -1,0 +1,110 @@
+.section-reviews{
+    padding: 175px  0 0;
+    background: #fff;
+    color: #000;
+    height: 100vh;
+
+    @include media-for (null, $sm){
+        padding: 57px  0 0;
+    }
+
+    h3{
+        color: #6EC1E4;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 90px;
+
+        @include media-for (null, $sm){
+            font-size: 20px;
+        }
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+        margin-bottom: 95px;
+
+
+        .swiper-slide {
+            background: #EDEDED;
+            height: 242px;
+            padding: 50px 3rem 0;
+            text-align: center;
+            color: #1D1D1D;
+
+            @include media-for (null, $sm){
+                padding: 43px .4rem 0;
+                height: 206px;
+            }
+
+            h4{
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 3px;
+
+                @include media-for (null, $sm){
+                    font-size: 16px;
+                }
+            }
+
+            p{
+                font-size: 14px;
+                color: #7A7A7A;
+                font-weight: 300;
+                font-style: italic;
+                margin-bottom: 25px;
+
+                @include media-for (null, $sm){
+                    font-size: 12px;
+                }
+            }
+
+            .raiting{
+                width: 112px;
+                margin: auto;
+
+                @include media-for (null, $sm){
+                    width: 89px;
+                }
+
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    
+        .swiper-pagination{
+            bottom: -30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .swiper-pagination-bullet{
+                width: 8px;
+                height: 8px;
+                background-color: #D9D9D9;
+            }
+
+            .swiper-pagination-bullet-active{
+                background-color: #6EC1E4;
+                width: 11px;
+                height: 11px;
+            }
+        }
+    }
+    
+
+    p{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+
+
+
+
