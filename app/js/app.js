@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     speed: 1200,
 		slidesPerView: 3,
 		spaceBetween: 30,
-		initialSlide: 1,
 		pagination: {
 		  el: ".swiper-pagination",
 		  clickable: true,
@@ -30,13 +29,11 @@ document.addEventListener('DOMContentLoaded', () => {
             320: {
               slidesPerView: 2.05,
               spaceBetween: 10,
-			        initialSlide: 0,
             },
           
             480: {
               slidesPerView: 2.03,
               spaceBetween: 10,
-			        initialSlide: 0,
             },
     
             820: {
